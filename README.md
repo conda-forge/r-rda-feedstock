@@ -14,14 +14,16 @@ Summary: Shrunken Centroids Regularized Discriminant Analysis for the classifica
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-rda-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-rda-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-rda-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-rda-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-rda-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-rda-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-rda-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-rda-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-rda-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-rda-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-rda-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-rda-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-rda/badges/version.svg)](https://anaconda.org/conda-forge/r-rda)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-rda/badges/downloads.svg)](https://anaconda.org/conda-forge/r-rda)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--rda-green.svg)](https://anaconda.org/conda-forge/r-rda) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-rda.svg)](https://anaconda.org/conda-forge/r-rda) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-rda.svg)](https://anaconda.org/conda-forge/r-rda) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-rda.svg)](https://anaconda.org/conda-forge/r-rda) |
 
 Installing r-rda
 ================
