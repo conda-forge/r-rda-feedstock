@@ -1,4 +1,4 @@
-{% set version = '1.0.2-2' %}
+{% set version = "1.0.2-2.1" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -13,7 +13,7 @@ source:
     - https://cran.r-project.org/src/contrib/rda_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/rda/rda_{{ version }}.tar.gz
 
-  sha256: 52ee41249b860af81dc692eee38cd4f8f26d3fbe34cb274f4e118de0013b58bc
+  sha256: 6918b62f51252b57f2c05b99debef6136b370f594dc3ae6466268e4c35578ef8
 
 build:
   number: 0
