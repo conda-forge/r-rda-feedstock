@@ -1,7 +1,7 @@
 About r-rda
 ===========
 
-Home: https://cran.r-project.org/web/packages/rda/index.html
+Home: https://CRAN.R-project.org/package=rda
 
 Package license: GPL (>= 2)
 
@@ -14,9 +14,8 @@ Summary: Shrunken Centroids Regularized Discriminant Analysis for the classifica
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-rda-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-rda-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-rda-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-rda-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-rda-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-rda-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-rda-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-rda-feedstock)
 
 Current release info
 ====================
