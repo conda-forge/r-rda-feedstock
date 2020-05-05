@@ -8,7 +8,6 @@ package:
   version: {{ version|replace("-", "_") }}
 
 source:
-  fn: rda_{{ version }}.tar.gz
   url:
     - {{ cran_mirror }}/src/contrib/rda_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rda/rda_{{ version }}.tar.gz
@@ -25,7 +24,6 @@ build:
 requirements:
   host:
     - r-base
-
   run:
     - r-base
 
@@ -39,17 +37,12 @@ about:
   license: GPL-2.0-or-later
   summary: Shrunken Centroids Regularized Discriminant Analysis for the classification purpose in high dimensional data.
   license_family: GPL3
-
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
+
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - dpryan79
     - MathiasHaudgaard
     - FrodePedersen
     - ArneKr
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
