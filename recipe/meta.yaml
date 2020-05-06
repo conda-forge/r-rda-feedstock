@@ -1,4 +1,4 @@
-{% set version = '1.0.2-2.1' %}
+{% set version = "1.0.2-2.1" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -8,16 +8,15 @@ package:
   version: {{ version|replace("-", "_") }}
 
 source:
-  fn: rda_{{ version }}.tar.gz
   url:
     - {{ cran_mirror }}/src/contrib/rda_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rda/rda_{{ version }}.tar.gz
-  sha256: 6918b62f51252b57f2c05b99debef6136b370f594dc3ae6466268e4c35578ef8
+  sha256: eea3a51a2e132a023146bfbc0c384f5373eb3ea2b61743d7658be86a5b04949e
 
 build:
   noarch: generic
-  merge_build_host: True  # [win]
-  number: 1001
+  merge_build_host: true  # [win]
+  number: 1002
   rpaths:
     - lib/R/lib/
     - lib/
@@ -25,7 +24,6 @@ build:
 requirements:
   host:
     - r-base
-
   run:
     - r-base
 
@@ -36,19 +34,15 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=rda
-  license: GPL (>= 2)
-  summary: Shrunken Centroids Regularized Discriminant Analysis for the classification purpose
-    in high dimensional data.
+  license: GPL-2.0-or-later
+  summary: Shrunken Centroids Regularized Discriminant Analysis for the classification purpose in high dimensional data.
   license_family: GPL3
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 
 extra:
-   recipe-maintainers:
+  recipe-maintainers:
     - conda-forge/r
-    - dpryan79
     - MathiasHaudgaard
     - FrodePedersen
     - ArneKr
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
