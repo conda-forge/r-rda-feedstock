@@ -10,7 +10,7 @@ package:
 source:
   url:
     - {{ cran_mirror }}/src/contrib/rda_{{ version }}.tar.gz
-    - {{ cran_mirror }}/src/contrib/Archive/rda/rda_{{ version }}.tar.gz
+    - https://cran.r-project.org/src/contrib/Archive/rda/rda_{{ version }}.tar.gz
   sha256: 6918b62f51252b57f2c05b99debef6136b370f594dc3ae6466268e4c35578ef8
 
 build:
